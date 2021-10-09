@@ -2,7 +2,9 @@
     package="com.example.flutter_code_snippets">
    <application
         android:label="flutter_code_snippets"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:usesClearTextTraffic="true"> 
+        
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
